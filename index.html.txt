@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>Testpage</title>
+</head>
+
+<body>
+<h1>Grunt creation experiment</h1>
+</body>
+
+</html>

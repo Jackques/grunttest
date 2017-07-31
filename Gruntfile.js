@@ -7,12 +7,15 @@ module.exports = function(grunt) {
     //require('time-grunt')(grunt);
     //require('load-grunt-tasks')(grunt);
 
-    /*grunt.initConfig(
+    grunt.initConfig(
         {
             pkg : grunt.file.readJSON('package.json'),
+			'my_custom_plugin': {
+			  all: []
+			}
 
         }
-    );*/
+    );
 
     // Default task(s).
     grunt.registerTask('default', ['my_custom_plugin']); //my_custom_plugin
